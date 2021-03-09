@@ -1,3 +1,5 @@
+export {};
+let mongoose = require('mongoose');
 const FeatureSchema = new mongoose.Schema({
     feature_id : {
         type: String

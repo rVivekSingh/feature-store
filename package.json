@@ -4,7 +4,7 @@
   "description": "``` A REST API using Node.js, TypeScript, Express.```",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app.ts",
+    "dev": "nodemon",
     "build": "rimraf ./dist && npx tsc",
     "start": "npm run build && node dist/app.js"
   },
