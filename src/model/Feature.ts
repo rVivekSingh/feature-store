@@ -1,4 +1,3 @@
-var mongoose = require("mongoose");
 const FeatureSchema = new mongoose.Schema({
     feature_id : {
         type: String
@@ -13,7 +12,8 @@ const FeatureSchema = new mongoose.Schema({
         type: String
     },
     feature_created_timestamp : {
-        type: Date
+        type: Date,
+        default: Date.now
     },
     feature_version : {
         type: String
